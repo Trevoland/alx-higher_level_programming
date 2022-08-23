@@ -1,9 +1,7 @@
-#!/usr/bin/python3 
-  
- for n1 in range(0, 10): 
-     for n2 in range(1, 10): 
-         if n2 > n1: 
-             print("{}{}".format(n1, n2), end='') 
-             if int(str(n1) + str(n2)) != 89: 
-                 print(end=', ') 
- print()
+#!/usr/bin/python3
+for number in range(100):
+    if int(number / 10) != number % 10 and int(number / 10) < number % 10:
+        print("{}{}".format(int(number / 10), number % 10), end="")
+        if (number != 89):
+            print(", ", end="")
+print("")
