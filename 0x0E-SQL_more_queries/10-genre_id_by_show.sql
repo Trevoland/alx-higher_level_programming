@@ -1,0 +1,1 @@
+-- Script that lists all the shows contained in hbtn_0d_tvshow that have at least on genre linked
